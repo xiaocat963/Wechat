@@ -24,8 +24,10 @@
     <servlet-class>com.messageOpr.servlet.DealMessageServlet</servlet-class>
   </servlet>
 
-
-
+ <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>	
   <servlet-mapping>
     <servlet-name>Yourchat</servlet-name>
     <url-pattern>/Yourchat</url-pattern>

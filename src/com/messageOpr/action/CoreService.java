@@ -20,7 +20,7 @@ public class CoreService {
 	 */
 	public static String processRequest(HttpServletRequest request) {
 		String respMessage = null;
-		String myurl="http://kongyd.duapp.com";
+		String myurl="http://182.92.84.174:80";
 		try {
 			// 默认返回的文本消息内容
 			String respContent = "请求处理异常，请稍候尝试！";

@@ -19,7 +19,16 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	-->
   </head>
-  
+  <script type="text/javascript">
+  <script type="text/javascript">
+  $(document).ready(function(){
+  var user = "<%=user%>";
+  if(user == null && user ==""){
+	  window.location.href="login.jsp"
+  }
+  });
+  </script>
+  </script>
   <body>
     <form action="<%=request.getContextPath()%>/Yourchat" method="post">
       <input type="submit" value="提交">
